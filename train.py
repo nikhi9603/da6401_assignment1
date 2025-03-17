@@ -99,9 +99,9 @@ def trainNeuralNetwork(args):
   # Confusion matrix
   class_names = []
   if(args.confusion_matrix == "True"):
-      if(args["dataset"] == "fashion_mnist"):
+      if(args.dataset == "fashion_mnist"):
           class_names = ["T-shirt/top", "Trouser", "Pullover", "Dress","Coat","Sandal", "Shirt", "Sneaker","Bag","Ankle boot"]
-      elif(args["dataset"] == "mnist"):
+      elif(args.dataset == "mnist"):
           class_names = [str(i) for i in range(10)]
           
       confusion_mat = confusion_matrix(y_pred_test.argmax(axis=1), y_test.argmax(axis=1))
