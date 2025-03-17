@@ -51,3 +51,8 @@ Along with the wandb entity, project different arguments are supported from the 
 
 ## Running with Jupyter Notebook
 Each section is mentioned seperately in the notebook. One can train the network by following through the sections in the notebook till training.
+
+## Link to Github
+Github: https://github.com/nikhi9603/da6401_assignment1
+
+## Link to Wandb report 
